@@ -1,0 +1,6 @@
+maven integration
+build pipeline
+html publisher
+python
+pyenv pipeline
+shining panda
