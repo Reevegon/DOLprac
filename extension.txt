@@ -4,3 +4,5 @@ html publisher
 python
 pyenv pipeline
 shining panda
+selenium
+selenium HTML report
