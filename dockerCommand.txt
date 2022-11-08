@@ -1,0 +1,10 @@
+1)docker -v
+2)docker pull imageName
+3)docker run imageName     or    docker run --name "containerName" imageName
+4)docker start containerName
+5)docker stop containerName
+6)docker pause containerName
+7)docker unpause containerName
+8)docker kill containerName
+9)docker ps -a            --- list container details
+10)docker rm containerId
