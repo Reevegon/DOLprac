@@ -36,3 +36,17 @@ Print("Hello World")
 C:
 cd C:\exam
 python B.py	
+
+
+
+
+
+
+Maven
+clean compile package
+
+Ant
+clean compile test package war
+
+
+
