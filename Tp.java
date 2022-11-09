@@ -86,3 +86,32 @@ echo "Password: ${params.PASSWORD}"
 Ques 9 pipeline
 https://github.com/be11o/jenkins-pipeline-tutorial.git
 
+
+
+
+
+ques11 docker
+Docker from start steps
+docker version
+docker --version
+docker login
+docker pull ubuntu
+docker images
+docker pull ubuntu:bionic
+docker images
+docker run ubuntu
+docker ps
+docker ps -a
+docker run --name reeve_ubunto -it ubuntu bash
+ls
+/////start reeve_ubunto they apply these commands:
+docker ps
+docker unpause reeve_ubunto
+docker stop reeve_ubuntu
+ps
+docker top reeve_ubunto
+docker inspect ubuntu
+
+
+
+
