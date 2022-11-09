@@ -23,3 +23,14 @@ class Main
 cd C:\exams
 javac Main.java
 java Main "%Num1%" "%Num2%" 
+
+	
+	
+	
+	
+	
+	
+For python proj	
+C:
+cd C:\exam
+python B.py	
