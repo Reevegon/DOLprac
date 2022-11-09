@@ -52,3 +52,37 @@ clean compile test package war
 https://github.com/Reevegon/rps-ant.git
 
 
+
+
+ques8 pipeline script 
+pipeline {
+agent any
+parameters {
+string(name: 'PERSON' , defaultValue: 'Chrissy', description: 'say hello')
+choice(name: 'CHOICE' , choices: ['1','2','3','4'], description: 'pick')
+password(name: 'PASSWORD' , defaultValue: '1234', description: 'enter pass')
+}
+stages {
+stage('name') {
+steps {
+echo "Hello ${params.PERSON}"
+}
+}
+stage('choice') {
+steps {
+echo "Choice ${params.CHOICE}"
+}
+}
+stage('password') {
+steps {
+echo "Password: ${params.PASSWORD}"
+}
+}
+}
+}
+
+
+
+Ques 9 pipeline
+https://github.com/be11o/jenkins-pipeline-tutorial.git
+
