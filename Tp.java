@@ -31,6 +31,8 @@ java Main "%Num1%" "%Num2%"
 	
 	
 For python proj	
+Print("Hello World")
+
 C:
 cd C:\exam
 python B.py	
