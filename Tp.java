@@ -4,3 +4,8 @@ public class Tp {
 		System.out.println("Enter the surname:"+args[1]);
 	}
 }
+
+
+cd C:\Users\91985\OneDrive\Documents
+javac B.java
+java B %reeve% %gonsalves% 
